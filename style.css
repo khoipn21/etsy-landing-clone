@@ -1,0 +1,158 @@
+.bg-lightblue {
+	background-color: #ccebff;
+}
+
+.dotted-underline {
+	border-bottom: 2px dotted #000;
+	text-decoration: none;
+}
+
+#categories-button {
+	cursor: pointer;
+}
+
+#categories-button:hover {
+	background-color: lightgray !important;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+.dropdown {
+	display: none;
+	position: absolute !important;
+	min-width: 160px;
+	z-index: 1;
+	background-color: #f1f1f1;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown.show {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.dropdown.show a {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.dropdown.show a:hover {
+	background-color: lightgray;
+	border-radius: 5px;
+}
+
+.search-button {
+	background-color: orange !important;
+}
+
+.nav-link {
+	color: black !important;
+}
+
+.nav-link:hover {
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.menu-item {
+	cursor: pointer;
+	transition: border-bottom 0.3s;
+	padding: 5px;
+	padding-bottom: 10px;
+	border-bottom: transparent 1px solid;
+}
+
+.menu-item:hover {
+	border-bottom: black 3px solid;
+}
+
+.menu-item img {
+	transition: transform 0.3s;
+	margin: 10px;
+}
+
+.menu-item img:hover {
+	transform: scale(1.1);
+}
+
+.card-item:hover {
+	border: 1px solid black !important;
+}
+
+.info-section {
+	background-color: #fffbd8;
+}
+
+.footer-etsy-icon {
+	width: 60px;
+	height: 60px;
+}
+
+.download-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	background-color: #122868;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		margin-top: 100px;
+	}
+
+	.special-categories {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.popular-gifts,
+	.gift-categories {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.popular-title {
+		text-align: center;
+	}
+
+	.popular-gifts a,
+	.gift-categories a {
+		width: 40% !important;
+		height: 250px;
+		margin-bottom: 20px;
+		border: 1px solid lightgray !important;
+	}
+
+	.download-wrapper {
+		flex-direction: column;
+	}
+
+	.popular-gifts .card-title {
+		display: none;
+	}
+	.footer-etsy-icon {
+		width: 60px;
+		height: 60px;
+	}
+
+	.download-wrapper {
+		padding: 20px;
+		flex-direction: row;
+		gap: 30px;
+	}
+	.download-wrapper button {
+		background-color: blue;
+		border: none;
+		border-radius: 20px;
+	}
+
+}

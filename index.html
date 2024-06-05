@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1933673737.js"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+
+<body>
+  <div class="container">
+    <header class="d-flex justify-content-center align-items-center py-3 header-container my-3">
+      <nav class="d-flex align-items-center position-fixed gap-3 bg-white w-100 justify-content-center top-0 py-3 navbar">
+        <a href="#">
+          <img src="./images/logo.png"
+            alt="Etsy Logo"
+            width="80px">
+        </a>
+        <div class="menu">
+          <button id="categories-button"
+            class="border-0 bg-transparent">
+            <i class="fa-solid fa-bars"></i> Categories</button>
+          <div id="categories-dropdown"
+            class="dropdown">
+            <a href="#">Accessories</a>
+            <a href="#">Art & Collectibles</a>
+            <a href="#">Baby</a>
+            <a href="#">Bags & Purses</a>
+            <a href="#">Bath & Beauty</a>
+            <a href="#">Books, Movies & Music</a>
+            <a href="#">Clothing</a>
+            <a href="#">Craft Supplies & Tools</a>
+            <a href="#">Electronics & Accessories</a>
+            <a href="#">Gifts</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Jewelry</a>
+          </div>
+        </div>
+        <form role="search">
+          <div class="d-flex rounded-pill search-container z-3 border">
+            <input class="form-control me-5 rounded-pill border-0"
+              type="search"
+              placeholder="Search for anything"
+              aria-label="Search" />
+            <button class="search-button btn rounded-pill"
+              type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+        <div>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link"
+                href="#">Sign in</a></li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#">
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#">
+                <i class="fa-solid fa-gift"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="text-center my-4">
+        <h2>Small shops make every moment more special!</h2>
+        <div class="d-flex justify-content-center special-categories">
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img src="https://i.etsystatic.com/ij/800c54/5981356668/ij_300x300.5981356668_biswxvgg.jpg?version=0"
+              class="rounded-circle"
+              alt="Gifts for Dad"
+              width="100px">
+            <p>Gifts for Dad</p>
+          </a>
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img src="https://i.etsystatic.com/5557878/r/il/992854/1934951451/il_300x300.1934951451_chnf.jpg"
+              class="rounded-circle"
+              alt="Greeting Cards"
+              width="100px">
+            <p>Greeting Cards</p>
+          </a>
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img
+              src="https://i.etsystatic.com/14819711/c/2000/2000/0/0/il/4b914c/4393791427/il_300x300.4393791427_q9zq.jpg"
+              class="rounded-circle"
+              alt="Barware"
+              width="100px">
+            <p>Barware</p>
+          </a>
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img
+              src="https://i.etsystatic.com/8154976/c/1376/1376/323/441/il/1ac661/5842079859/il_300x300.5842079859_hpa0.jpg"
+              class="rounded-circle"
+              alt="Summer Clothing"
+              width="100px">
+            <p>Summer Clothing</p>
+          </a>
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img src="https://i.etsystatic.com/43023326/r/il/98b10f/5338068475/il_300x300.5338068475_9qeg.jpg"
+              class="rounded-circle"
+              alt="Kids Activities"
+              width="100px">
+            <p>Kids Activities</p>
+          </a>
+          <a class="px-2 pt-2 text-decoration-none fw-medium text-black menu-item"
+            href="#">
+            <img src="https://i.etsystatic.com/13722199/r/il/291260/5559365546/il_300x300.5559365546_ru1a.jpg"
+              class="rounded-circle"
+              alt="Up to 30% Off"
+              width="100px">
+            <p>Up to 30% Off</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="my-4">
+        <h3 class="popular-title">Popular gifts right now</h3>
+        <div class="d-flex overflow-auto popular-gifts">
+          <a href="#"
+            class="card-item card mx-2 border-0 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/16555624/r/il/9ee34f/4407428528/il_794xN.4407428528_nmcn.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 2"
+              style="height: 180px;">
+            <div class="card-body">
+              <h5 class="card-title">Hummingbird stained glass window hangings</h5>
+              <p class="card-text">Price: $25.00</p>
+            </div>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 border-0 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/27808603/r/il/17eff8/4476872409/il_794xN.4476872409_hru6.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 2"
+              style="height: 180px;">
+            <div class="card-body">
+              <h5 class="card-title">14K Solid Gold Family Birthstone Necklace</h5>
+              <p class="card-text">Price: $150.00</p>
+            </div>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 border-0 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/41680084/r/il/c9a00d/5191407709/il_794xN.5191407709_nqq5.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 3"
+              style="height: 180px;">
+            <div class="card-body">
+              <h5 class="card-title">Personalized travel jewelry box</h5>
+              <p class="card-text">Price: $45.00</p>
+            </div>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 border-0 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/39476947/r/il/50d188/5591342244/il_794xN.5591342244_8cmc.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 4"
+              style="height: 180px;">
+            <div class="card-body">
+              <h5 class="card-title">Wood Birth Flower Garden</h5>
+              <p class="card-text">Price: $35.00</p>
+            </div>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 border-0 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/34179754/r/il/3c190a/4296259646/il_794xN.4296259646_mky4.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <div class="card-body">
+              <h5 class="card-title">Nana Embroidered Sweatshirt</h5>
+              <p class="card-text">Price: $40.00</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+
+      <section class="mt-5">
+        <h3>Shop our popular gift categories</h3>
+        <div class="d-flex justify-content-center gift-categories">
+          <a href="#"
+            class="card-item card mx-2 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/18265338/r/il/5fbb42/4479721093/il_340x270.4479721093_gfiz.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <h5 class="card-title p-4 text-center">Anniversary gifts</h5>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/14980522/r/il/8746e6/5806724446/il_340x270.5806724446_jqg8.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <h5 class="card-title p-4 text-center">Gifts for him</h5>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/18476337/r/il/51e718/3802103752/il_340x270.3802103752_grsh.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <h5 class="card-title p-4 text-center">Gifts for her</h5>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/5998892/r/il/315f51/6008698124/il_340x270.6008698124_fudz.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <h5 class="card-title p-4 text-center">Personalized gift ideas</h5>
+          </a>
+          <a href="#"
+            class="card-item card mx-2 bg-transparent text-decoration-none position-static"
+            style="width: 18rem;">
+            <img src="https://i.etsystatic.com/19458228/r/il/6a09b4/1985966876/il_340x270.1985966876_fmhi.jpg"
+              class="card-img-top object-fit-cover"
+              alt="Gift 5"
+              style="height: 180px;">
+            <h5 class="card-title p-4 text-center">Wedding gifts</h5>
+          </a>
+        </div>
+      </section>
+
+
+      <section class="mt-4 text-center info-section p-4">
+        <h1>What is Etsy?</h1>
+        <a href="#"
+          class="text-black">Read our wonderful story</a>
+        <div class="row mt-2 text-start">
+          <div class="col-md-4">
+            <h3>A community doing good</h3>
+            <p>Etsy is a global online marketplace, where people come together to make, sell, buy, and collect unique
+              items. We’re also a community pushing for positive change for small businesses, people, and the planet.
+              <span><a href="#"
+                  class="dotted-underline text-black">Here are some of the ways we’re making a positive impact,
+                  together.</a></span>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Support independent creators</h3>
+            <p>There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole
+              process easy, helping you connect directly with makers to find something extraordinary.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Peace of mind</h3>
+            <p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are
+              always ready to step in for support.</p>
+          </div>
+        </div>
+        <h4 class="mt-4">Have a question? Well, we’ve got some answers.</h4>
+        <button class="btn btn-primary mt-3 rounded-pill p-2 text-black border-dark bg-transparent fw-medium">
+          Go to Help Center
+        </button>
+      </section>
+
+
+      <section class="text-center p-5 bg-lightblue ">
+        <h5>Yes! Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling on Etsy.
+        </h5>
+        <form class="d-flex justify-content-center">
+          <div class="bg-white rounded-pill d-flex w-50">
+            <input type="email"
+              class="form-control w-100 bg-white border-0 rounded-pill p-2"
+              placeholder="Enter your email">
+            <button type="submit"
+              class="btn btn-secondary ml-2 bg-white border-0 rounded-pill text-black">Subscribe</button>
+          </div>
+        </form>
+      </section>
+      <section class="text-center p-5 bg-primary ">
+        <a href="#">
+          <h4 class="text-white"><i class="fa-solid fa-earth-americas"></i> Etsy is powered by 100% renewable
+            electricity.</h3>
+        </a>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white">
+      <div class="container-fluid bg-primary text-light ">
+        <div class="row">
+          <div class="col-md-4 text-center d-flex download-wrapper">
+            <a href="#">
+              <img src="./images/logo-footer.png"
+                alt=""
+                class="footer-etsy-icon">
+            </a>
+            <button class="btn btn-secondary">Download the Etsy App</button>
+          </div>
+          <div class="col-md-2">
+            <h5>Shop</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"
+                  class="text-light text-decoration-none">Gift cards</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy Registry</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Sitemap</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy blog</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy United Kingdom</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy Germany</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy Canada</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Sell</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"
+                  class="text-light text-decoration-none">Sell on Etsy</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Teams</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Forums</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Affiliates & Creators</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>About</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"
+                  class="text-light text-decoration-none">Etsy, Inc.</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Policies</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Investors</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Careers</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Press</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Impact</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Legal imprint</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Help</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"
+                  class="text-light text-decoration-none">Help Center</a></li>
+              <li><a href="#"
+                  class="text-light text-decoration-none">Privacy settings</a></li>
+            </ul>
+            <div class="d-flex justify-content-start">
+              <a href="#"
+                class="text-light text-decoration-none me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#"
+                class="text-light text-decoration-none me-3"><i class="fab fa-facebook"></i></a>
+              <a href="#"
+                class="text-light text-decoration-none me-3"><i class="fab fa-pinterest"></i></a>
+              <a href="#"
+                class="text-light text-decoration-none me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#"
+                class="text-light text-decoration-none"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-dark text-light text-decoration-none py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">
+              <a href="#"
+                class="text-light text-decoration-none">Vietnam</a> |
+              <a href="#"
+                class="text-light text-decoration-none">English (US)</a> |
+              <a href="#"
+                class="text-light text-decoration-none">₫ (VND)</a>
+            </p>
+          </div>
+          <div class="col-md-6 text-end">
+            <p class="mb-0">
+              &copy; 2024 Etsy, Inc. |
+              <a href="#"
+                class="text-light text-decoration-none">Terms of Use</a> |
+              <a href="#"
+                class="text-light text-decoration-none">Privacy</a> |
+              <a href="#"
+                class="text-light text-decoration-none">Interest-based ads</a> |
+              <a href="#"
+                class="text-light text-decoration-none">Local Shops</a> |
+              <a href="#"
+                class="text-light text-decoration-none">Regions</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+
+
+</html>
